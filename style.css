@@ -21,10 +21,12 @@ img{
   
 .prodotto {
     display: inline-block;
-    position: relative;
     margin: 0.5rem;
 }
 
+.image{
+    position: relative;
+}
 /*badge cuore*/
 .quadrato{
     background-color: white;
@@ -38,5 +40,44 @@ img{
  .heart{
     line-height:50px;
     font-size: 2rem;
-     line-height: 50px;
+    line-height: 50px;
 }  
+
+.sales{
+    background-color:red;
+    color: white;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    line-height: 30px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left: 65px;
+    bottom: 15px;
+    line-height: 30px;
+    
+}
+
+.green2{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left:0%;
+    bottom: 15px;
+    line-height: 30px;
+}
+
+
+.prezzo{
+    color: red;
+    
+}
