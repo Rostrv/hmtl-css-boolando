@@ -79,5 +79,18 @@ img{
 
 .prezzo{
     color: red;
-    
+    margin-right: 5px;
+}
+
+.second{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
+    visibility: hidden;
+}
+
+.image:hover .second{
+    visibility:visible;
 }
