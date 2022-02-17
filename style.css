@@ -42,7 +42,7 @@ img{
     font-size: 2rem;
     line-height: 50px;
 }  
-
+/* badge sconti e sostenibilità*/
 .sales{
     background-color:red;
     color: white;
@@ -76,12 +76,12 @@ img{
     line-height: 30px;
 }
 
-
 .prezzo{
     color: red;
     margin-right: 5px;
 }
 
+/******hoverlay****/
 .second{
     position: absolute;
     top: 0%;
@@ -93,4 +93,12 @@ img{
 
 .image:hover .second{
     visibility:visible;
+}
+
+.brand{
+    text-align: left;
+}
+
+footer{
+    text-align:center
 }
